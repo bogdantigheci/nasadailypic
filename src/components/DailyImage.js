@@ -53,7 +53,7 @@ const DailyImage = () => {
               />
             )}
           </div>
-          <div>
+          <div className="desc">
             <h1>{imageDetails.title}</h1>
             <p className="date">{imageDetails.date}</p>
             <p className="explanation">{imageDetails.explanation}</p>
